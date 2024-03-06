@@ -9,7 +9,6 @@ This repository demonstrates the use of popular machine learning classifiers to 
 The following classifiers are implemented and compared in this repository:
 
 1. **Logistic Regression:** A linear classifier that is simple yet effective.
-   
 2. **k-Nearest Neighbors (k-NN):** A non-parametric method based on the similarity of data points.
 
 3. **Support Vector Machine (SVM):** A powerful classifier that works well for both linear and non-linear data.
@@ -19,6 +18,8 @@ The following classifiers are implemented and compared in this repository:
 ## Dataset
 
 The MNIST dataset consists of 28x28 pixel grayscale images of handwritten digits (0 through 9). It is a classic dataset for introducing image classification concepts.
+
+Download the data: https://www.kaggle.com/datasets/zalando-research/fashionmnist
 
 ## Getting Started
 
@@ -39,6 +40,10 @@ Each notebook contains detailed instructions and explanations for the following 
 ## Results and Discussion
 
 The results and comparative analysis of each classifier are provided in the notebooks. Feel free to experiment with different hyperparameters, preprocessing techniques, or even explore additional classifiers.
+
+## Outcome
+
+In the course of our analysis, the Support Vector Machine (SVM) with a radial basis function (rbf) kernel emerged as the top-performing classifier, aligning with expectations. This achievement was further enhanced by leveraging Principal Component Analysis (PCA) for feature selection/engineering. By retaining 95% of the variance in the data, we managed to significantly improve training speed compared to using all features, demonstrating the effectiveness of dimensionality reduction in enhancing the SVM model's performance.
 
 ## Conclusion
 
